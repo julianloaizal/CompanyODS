@@ -36,6 +36,21 @@
 					@auth()
                     <ul class="navbar-nav mr-auto">
 						<!--Nav Bar Hooks - Do not delete!!-->
+						<li class="nav-item">
+                            <a href="{{ url('/sacas') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Sacas</a> 
+                        </li>
+						<li class="nav-item">
+                            <a href="{{ url('/ejemplares') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Ejemplares</a> 
+                        </li>
+						<li class="nav-item">
+                            <a href="{{ url('/usuarios') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Usuarios</a> 
+                        </li>
+						<li class="nav-item">
+                            <a href="{{ url('/libros') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Libros</a> 
+                        </li>
+						<li class="nav-item">
+                            <a href="{{ url('/autores') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Autores</a> 
+                        </li>
                     </ul>
 					@endauth()
 					
